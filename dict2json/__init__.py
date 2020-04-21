@@ -13,7 +13,7 @@ from microapp import App
 class Dict2Json(App):
 
     _name_ = "dict2json"
-    _version_ = "0.1.0"
+    _version_ = "0.1.1"
     _description_ = "Microapp convertor from Python dictionary to Json"
     _long_description_ = "Microapp convertor from Python dictionary to Json"
     _author_ = "Youngsung Kim"

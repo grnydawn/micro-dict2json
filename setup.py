@@ -28,7 +28,7 @@ def main():
         keywords="microapp dict2json",
         include_package_data=True,
         install_requires=install_requires,
-        scripts=["dict2json.py"],
+        packages=["dict2json"],
         entry_points={"microapp.apps": "dict2json = dict2json"},
         project_urls={
             "Bug Reports": "https://github.com/grnydawn/micro-dict2json/issues",
