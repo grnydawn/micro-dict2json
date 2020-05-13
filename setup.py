@@ -5,7 +5,7 @@ def main():
     from setuptools import setup
     from dict2json import Dict2Json as d2j
 
-    install_requires = ["microapp>=0.1.3"]
+    install_requires = ["microapp>=0.1.11"]
 
     setup(
         name=d2j._name_,
