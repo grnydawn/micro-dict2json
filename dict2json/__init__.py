@@ -13,7 +13,7 @@ from microapp import App
 class Dict2Json(App):
 
     _name_ = "dict2json"
-    _version_ = "0.1.1"
+    _version_ = "0.1.2"
     _description_ = "Microapp convertor from Python dictionary to Json"
     _long_description_ = "Microapp convertor from Python dictionary to Json"
     _author_ = "Youngsung Kim"
@@ -27,7 +27,7 @@ class Dict2Json(App):
 
         self.register_forward("data", type=Any, help="json object")
 
-    def perform(self, mgr, args):
+    def perform(self, args):
 
         data = args.data["_"]
 

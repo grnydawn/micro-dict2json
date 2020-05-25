@@ -11,7 +11,7 @@ def test_basic():
     data = '\'["foo", {"bar": ["baz", null, 1.0, 2]}]\''
     cmd = "dict2json %s -o %s" % (data, jsondata)
 
-    ret = prj.main(cmd)
+    ret, fwds = prj.run_command(cmd)
 
     assert ret == 0
     assert os.path.exists(jsondata)
